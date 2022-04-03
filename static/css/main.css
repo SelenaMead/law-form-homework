@@ -1,0 +1,74 @@
+/* Body */
+body{
+    background-image: url("nza_background.jpg");
+}
+.bkgrnd{
+    background-color: white;
+    z-index: 2;
+}
+.red-bar{
+    height: 68%;
+    margin: 0em;
+    overflow-y: auto;
+    color: white;
+    background-color: darkred;
+}
+
+/* Header */
+header {
+    display: flex;
+}
+
+/* NavBar */
+
+hr{
+    color: black;
+}
+ nav ul li {
+    display: inline;
+    justify-content: space-between;
+    
+}
+a{
+    color: black;
+    padding: 15px;;
+    
+}
+nav{
+    text-align: center;
+}
+footer ul li{
+    
+    display: inline;
+    justify-content: space-between;
+    
+}
+footer{
+    text-align: center;
+}
+
+/* who we are page */
+ .left-container{
+        list-style-type: none;
+        background-color: darkred;
+        color: white;
+ }
+ .who-images img{
+    padding: 35px;
+ }
+
+ /* Where page */
+
+ li{
+     display: flex;
+
+ }
+
+ /* Contact Us page */
+ .left-bar{
+     background-color: darkred;
+     color: white;
+ }
+ .right-bar{
+     background-color: beige;
+ }
